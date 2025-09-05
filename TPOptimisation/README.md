@@ -18,11 +18,13 @@
 ![](./DockerImageInitial.png)
 
 ### Commit 1 – Alléger l’image Docker
+> Building 0.7s (12/12) FINISHED 
+> Size: 142MB
 - Passage à `node:20-alpine`.
 - Suppression des paquets inutiles.
 - Meilleure gestion du cache (`COPY package*.json` avant `npm ci`).
 - Suppression de `COPY node_modules`.
-- Exposition uniquement du port `3000`.
+- Exposition uniquement du port `3000`. (Passé à `8000` dans le code car j'utilise déjà le `3000` pour autre chose)
 
 ### Commit 2 – Sécurisation & bonnes pratiques
 - `ENV NODE_ENV=production`.

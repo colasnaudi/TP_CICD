@@ -42,7 +42,7 @@
 - Ajout de `maybe-big-file.txt` pour simuler un gros fichier.
 
 ### Commit 4 – Logs
->
->
+> Building 0.7s (12/12) FINISHED
+> Size: 140MB
 - Ajout de `morgan` pour un logging propre.
 - Désactivation des logs verbeux en production.

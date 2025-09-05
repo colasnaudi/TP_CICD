@@ -27,6 +27,8 @@
 - Exposition uniquement du port `3000`. (Passé à `8000` dans le code car j'utilise déjà le `3000` pour autre chose)
 
 ### Commit 2 – Sécurisation & bonnes pratiques
+> Building 2.7s (12/12) FINISHED
+> Size: 142MB
 - `ENV NODE_ENV=production`.
 - Suppression de `RUN npm run build` (inutile).
 - Ajout de `USER node`.

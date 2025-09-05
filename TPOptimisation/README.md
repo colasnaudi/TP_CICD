@@ -34,17 +34,15 @@
 - Ajout de `USER node`.
 
 ### Commit 3 – Optimisation du code
+> Building 2.1s (12/12) FINISHED
+> Size: 140MB
 - Passage de `fs.readFileSync` à `fs.promises.readFile` (asynchrone).
 - Ajout de gestion d’erreurs (try/catch).
 - Prévention de surcharge mémoire.
+- Ajout de `maybe-big-file.txt` pour simuler un gros fichier.
 
 ### Commit 4 – Logs
+>
+>
 - Ajout de `morgan` pour un logging propre.
 - Désactivation des logs verbeux en production.
-
-### Commit 5 – Documentation
-- Rédaction de ce README.
-- Instructions de build et run :
-  ```bash
-  docker build -t myapp .
-  docker run -p 3000:3000 myapp
